@@ -1,0 +1,24 @@
+/*general styles*/
+body {
+    color:#331b0d;
+}
+
+/*header*/
+
+header {
+    background-color:#d6d1ca;
+
+}
+
+/*main*/
+main {
+    background-color:#c0ab92;
+
+}
+
+/*footer*/
+footer {
+    color:#d6d1ca;
+    background-color:#331b0d;
+
+}
