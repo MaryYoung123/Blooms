@@ -1,18 +1,33 @@
+/*asterisk wildcard selector*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 /*general styles*/
 body {
     color:#331b0d;
+    min-height:100vh;
+    display:flex;
+    flex-direction: column;
 }
 
 /*header*/
 
 header {
     background-color:#d6d1ca;
+    position:fixed;
+    z-index:99;
+    width: 100%;
+    box-shadow: 0 5px 5px #331b0d;
 
 }
 
 /*main*/
 main {
     background-color:#c0ab92;
+    flex: 1 0 auto;
 
 }
 
