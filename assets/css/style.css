@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 /*asterisk wildcard selector*/
 * {
     padding: 0;
@@ -7,33 +9,40 @@
 
 /*general styles*/
 body {
-    color:#331b0d;
-    min-height:100vh;
-    display:flex;
+    color: #331b0d;
+    min-height: 100vh;
+    display: flex;
     flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /*header*/
 
 header {
-    background-color:#d6d1ca;
-    position:fixed;
-    z-index:99;
+    background-color: #d6d1ca;
+    position: fixed;
+    z-index: 99;
     width: 100%;
     box-shadow: 0 5px 5px #331b0d;
 
 }
 
+header a {
+    text-decoration: none;
+    color: #331b0d;
+    font-family: 'Delius Unicase', sans-serif;
+}
+
 /*main*/
 main {
-    background-color:#c0ab92;
+    background-color: #c0ab92;
     flex: 1 0 auto;
 
 }
 
 /*footer*/
 footer {
-    color:#d6d1ca;
-    background-color:#331b0d;
+    color: #d6d1ca;
+    background-color: #331b0d;
 
 }
