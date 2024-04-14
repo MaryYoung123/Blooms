@@ -46,3 +46,19 @@ footer {
     background-color: #331b0d;
 
 }
+
+li {
+    display: inline;
+    padding-bottom: 2em;
+    margin: 3em 0.5em;
+    
+}
+
+.active {
+    border-bottom: 1px solid #331b0d;
+}
+
+#logo {
+    position: relative;
+    margin: auto 2em;
+}
