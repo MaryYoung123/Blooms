@@ -35,9 +35,15 @@ header a {
 
 /*main*/
 main {
-    background-color: #c0ab92;
     flex: 1 0 auto;
 
+}
+
+/*Hero section*/
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/pexels-karolina-grabowska-6641316.jpg") no-repeat center center/cover;
 }
 
 /*footer*/
