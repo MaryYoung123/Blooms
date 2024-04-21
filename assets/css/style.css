@@ -24,6 +24,8 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 5px 5px #331b0d;
+    letter-spacing: 2px;
+    
 
 }
 
@@ -56,7 +58,7 @@ footer {
 li {
     display: inline;
     padding-bottom: 2em;
-    margin: 3em 0.5em;
+    text-align: center;
     
 }
 
