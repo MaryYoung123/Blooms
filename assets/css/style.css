@@ -44,6 +44,11 @@ main {
 
 #home {
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    position: relative;
+    max-width: 100%;
+    align-items: center;
+    
 }
 
 /*Hero section*/
@@ -53,10 +58,23 @@ main {
     background: url("../images/pexels-karolina-grabowska-6641316.jpg") no-repeat center center/cover;
 }
 
+h2 {
+    font-size: 90%;
+}
+
+h3 {
+    font-size: 80%;
+}
 /*footer*/
 footer {
     color: #d6d1ca;
     background-color: #331b0d;
+    height: 60px;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 160%;
   
 
 }
