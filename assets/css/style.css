@@ -48,7 +48,7 @@ main {
     text-align: center;
     position: relative;
     max-width: 100%;
-    align-items: center;
+  
     
 }
 
@@ -89,7 +89,7 @@ li {
 }
 
 .active {
-    border-bottom: 1px solid #331b0d;
+    font-style: italic;
 }
 
 #logo {
