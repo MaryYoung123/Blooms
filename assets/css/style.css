@@ -94,6 +94,10 @@ li {
     
 }
 
+footer li {
+    margin: auto 0.5em;
+}
+
 .active {
     font-style: italics;
 }
