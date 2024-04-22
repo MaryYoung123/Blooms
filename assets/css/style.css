@@ -116,3 +116,19 @@ footer li {
 }
 
 }
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    /*gallery*/
+    #photos {
+    column-count: 3;
+    }
+}
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    /*gallery*/
+    #photos {
+    column-count: 4;
+    }
+}
