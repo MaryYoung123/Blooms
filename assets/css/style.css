@@ -134,6 +134,22 @@ footer li {
    main {
     margin-top: 79px;
    }
+#our-story {
+    display: inline-flex;
+    border-style: dotted;
+    border-color: #331b0d;
+    
+}
+
+#contact {
+    display: inline-flex;
+    border-style: dotted;
+    border-color: #331b0d;
+    
+
+}
+
+
     /*gallery*/
     #photos {
     column-count: 3;
