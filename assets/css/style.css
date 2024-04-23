@@ -27,14 +27,15 @@ header {
     width: 100%;
     box-shadow: 0 5px 5px #331b0d;
     letter-spacing: 2px;
-    
+    text-align: center;
+    font-family: 'Delius Unicase', sans-serif;
 
 }
 
 header a {
     text-decoration: none;
     color: #331b0d;
-    font-family: 'Delius Unicase', sans-serif;
+    
 }
 
 /*main*/
@@ -119,6 +120,11 @@ footer li {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
+    /*header*/
+   nav {
+    text-align: right;
+   }
     /*gallery*/
     #photos {
     column-count: 3;
