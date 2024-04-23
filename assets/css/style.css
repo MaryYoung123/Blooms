@@ -41,7 +41,7 @@ header a {
 /*main*/
 main {
     flex: 1 0 auto;
-    padding-top: 60.8px;
+   margin-top: 61.6px;
 
 }
 
@@ -122,8 +122,17 @@ footer li {
 @media screen and (min-width: 768px) {
 
     /*header*/
+    header{
+        padding-top: 2%;
+    }
+    #logo {
+        font-size: 300%;
+    }
    nav {
     text-align: right;
+   }
+   main {
+    margin-top: 79px;
    }
     /*gallery*/
     #photos {
