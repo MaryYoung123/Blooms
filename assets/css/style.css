@@ -38,6 +38,15 @@ header a {
     
 }
 
+.active {
+    font-weight: bolder;
+}
+
+#logo {
+    position: relative;
+    
+}
+
 /*main*/
 main {
     flex: 1 0 auto;
@@ -50,8 +59,15 @@ main {
     text-align: center;
     position: relative;
     max-width: 100%;
-  
-    
+    padding:10px;
+}
+
+#our-story {
+    padding:10px;
+}
+
+#contact {
+    padding:10px;
 }
 
 /*Hero section*/
@@ -99,14 +115,8 @@ footer li {
     margin: auto 0.5em;
 }
 
-.active {
-    font-weight: bolder;
-}
 
-#logo {
-    position: relative;
-    
-}
+
 
 /*media query, for larger and landscape phones (576px and up)*/
 
@@ -138,6 +148,8 @@ footer li {
     display: inline-flex;
     border-style: dotted;
     border-color: #331b0d;
+    padding: 20px;
+    margin: 10px
     
 }
 
@@ -145,10 +157,23 @@ footer li {
     display: inline-flex;
     border-style: dotted;
     border-color: #331b0d;
+    padding: 20px;
+    margin: 10px;
     
 
 }
 
+#our-story h1 {
+    padding-right: 20px;
+}
+
+#contact h1 {
+    padding-right: 20px;
+}
+
+#contact span {
+    padding-right: 10px
+}
 
     /*gallery*/
     #photos {
