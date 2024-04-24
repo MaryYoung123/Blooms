@@ -90,6 +90,22 @@ h3 {
     width: 100%;
 }
 
+/*sign up form*/
+
+.signup {
+    opacity: 25%;
+    position: fixed;
+    background-size: cover;
+    
+}
+
+#signup {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
 /*footer*/
 footer {
     color: #d6d1ca;

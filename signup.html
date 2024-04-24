@@ -47,43 +47,39 @@
 
 
     <!--main content-->
-    <main>
-        <section id="hero" alt="A picture of a lady arranging flowers"></section>
-        <section id="home">
-            <h1>Welcome to Blooms</h1>
-            <h2>A beautiful letterbox bouquet subscription delivered to your door</h2>
-            <p>Do you love fresh blooms decorating your home? We do too. That's why we have created Blooms, an easy,
-                reliable and gorgeous subscription service, that delivers a bouquet of seasonal flowers monthly to your
-                door. Treat yourself to a lovely delivery every month! </p>
-        </section>
+    <main> 
 
-        <span>
-            <section id="our-story">
-            <h1>Our Story</h1>
-            <p>I have loved giving and recieving flowers my whole life. Nothing can make my day brighter, like a fresh
-                bouquet. That is why for the past 20 years I have made it my mission to deliver seasonal and
-                long-lasting bouquets directly to your door. Our letterbox flowers have been carefully preserved, and
-                when placed in a vase with water and our special 'flower food', they bounce back to life! Treat
-                yourself, or a loved one, to a lovely monthly delivery!</p>
-        </section>
-        </span>
+        <section id="hero" class="signup" title="flowers"></section>
 
-       <span> <section id="contact">
-            <h1>Get in touch!</h1>
-            <p>Use our 'sign up' form to start your monthly subscription. However, if you have any questions or special
-                requests, please do not hesitate to get in touch!</p>
+        <section id="signup">
+        <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
+            <h2> Sign up for our monthly subscription!</h2>
+            <label for="first-name">First Name</label>
+            <input type="text" name="first_name" id="first-name" class="text-input" required>
+            <br>
+            <label for="last-name">Last Name</label>
+            <input type="text" name="last_name" id="last-name" class="text-input" required>
+            <br>
+            <label for="email-address">Email Address</label>
+            <input type="email" name="email_address" id="email-address" class="text-input" required>
+            <br>
+            <label for="address">Address</label>
+            <input type="address" name="address" id="address" class="text-input" required>
+            <br>
+            <div class="radio-buttons">
                 <div>
-                    <span style="font-weight: bold;">Phone: </span>
-                    <span>07402591779</span>
-                  </div>
-                  <div>
-                    <span style="font-weight: bold;">Email: </span>
-                    <span>blooms@gmail.co.uk</span>
-                  </div>
-        </section>
-        </span>
-
-    </main>
+                    <label for="weekly">Weekly</label>
+                    <input type="radio" name="how-often" id="weekly" value="weekly" required checked>
+                </div>
+                <div>
+                    <label for="monthly">Monthly</label>
+                    <input type="radio" name="how-often" id="monthly" value="monthly" required>
+                </div>
+            </div>
+            <button type="submit" class="join-button">submit</button>
+        </form>
+    </section>
+</main>
 
     <!--footer-->
     <footer>
