@@ -95,7 +95,7 @@ h3 {
 .signup {
     opacity: 25%;
     position: fixed;
-    background-size: cover;
+ 
     
 }
 
@@ -189,6 +189,14 @@ footer li {
 
 #contact span {
     padding-right: 10px
+}
+
+/*sign up */
+
+#signup {
+    font-size: 200%;
+    
+
 }
 
     /*gallery*/
