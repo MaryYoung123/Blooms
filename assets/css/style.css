@@ -70,6 +70,10 @@ main {
     padding:10px;
 }
 
+#hidden {
+    display: none;
+}
+
 /*Hero section*/
 #hero {
     height: 600px;
@@ -163,7 +167,7 @@ footer li {
     text-align: right;
    }
    main {
-    margin-top: 79px;
+    margin-top: 119px;
    }
 #our-story {
     display: inline-flex;
