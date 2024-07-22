@@ -36,3 +36,7 @@ Blooms is a simple, fully responsive, easy to use and visually attractive websit
   * Users can also navigate to the Sign up page, a clear and easy to understand page where the user can enter their details and sign up to a subscription. 
   * Users have the option to choose between a weekly or monthly subscription. 
   * The sign up form collects the data from the user. It also checks to see if a valid Email address has been written, and that all sections are filled out before completion. 
+
+  ![Screenshot of sign up page](assets/images/screenshot.signup.png)
+
+  
