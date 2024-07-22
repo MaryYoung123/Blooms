@@ -40,3 +40,30 @@ Blooms is a simple, fully responsive, easy to use and visually attractive websit
   ![Screenshot of sign up page](assets/images/screenshot.signup.png)
 
   
+  * Footer
+    * The footer freatures at the bottom of the site, across all pages in the site. It features four icons representing Facebook, Twitter, Instagram and Youtube, which are external links to the sites. These links open in a seperate tab. 
+
+    ![Screenshot of footer](assets/images/screenshot-footer.png)
+
+
+  ## Testing
+
+  * I have tested this site on different browsers including chrome, firefox and safari.
+  * I have tested that this site if fully responsive, with a colour scheme and design that is smart, easy to read and understand, and visually pleasing.
+
+### Bugs
+
+* Upon deployment, i discovered that I had used incorrect file paths for some aspects and images on the site. I have been through the file paths in the code and fixed this.
+
+* Unsolved bugs
+  * No known unsolved bugs.
+
+### Validator testing
+
+* HTML
+  * No errors were returned when passing through the official W3C Validator.
+* CSS
+  * No errors were returned when passing through the official Jigsaw Validator.
+* Accessability
+  * I confirmed that the site is accessible using the Lighthouse in dev tools.
+  
