@@ -67,3 +67,27 @@ Blooms is a simple, fully responsive, easy to use and visually attractive websit
 * Accessability
   * I confirmed that the site is accessible using the Lighthouse in dev tools.
   
+
+![Screenshot of lighthouse report](assets/images/screenshot-lighthouse.png)
+
+## Deployment
+
+* The site was deployed to Github Pages. The steps to deploy are as follows:
+  * Navigate to the settings button in the Github repository.
+  * Select the master branch for the source.
+  * The page then provides the link to the deployed website.
+
+  This is a live link to the deployed site: [Blooms](https://maryyoung123.github.io/Blooms/)
+
+
+## Credits
+
+### Content
+
+The content for this site was influenced by the "Love running" project in Code Institute. The project was frequently referred to to help me with creating this site.
+
+### Media
+
+The Gallery is made up of pictures sourced from [Pexels](https://www.pexels.com/).
+
+I also used a kit from [Font Awesome](https://fontawesome.com/) for icons.
